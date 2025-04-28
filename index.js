@@ -9,6 +9,15 @@ sydneyDateElement.innerHTML= moment().format("MMMM Do yyyy");
 sydneyTimeElement.innerHTML= sydneyTime.format("h:mm:ss [<small>]A[</small>]");
 
 
+let detroitElement= document.querySelector("#Detroit");
+
+let detroitDateElement= detroitElement.querySelector(".date");
+let detroitTimeElement= detroitElement.querySelector(".time");
+let detroitTime= moment().tz("America/Detroit");
+detroitDateElement.innerHTML= moment().format("MMMM Do yyyy");
+detroitTimeElement.innerHTML= detroitTime.format("h:mm:ss [<small>]A[</small>]");
+
+
 let tokyoElement= document.querySelector("#tokyo");
 
 let tokyoDateElement= tokyoElement.querySelector(".date");
