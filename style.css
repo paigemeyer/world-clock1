@@ -1,22 +1,26 @@
 
 body {
-    background-color:darkgray;
+    background-image: url("pexels-pixabay-41949.jpg");
+    background-size: cover;
+        background-position: center;
+        height: 100vh;
 }
 
 h1{
     text-align: center;
-    font-size: 50px;
+    font-size: 55px;
+    padding-top: -10px ;
 }
 
 
 .container {
     max-width: 600px;
     margin: 0 auto;
-    background-color:floralwhite;
+    background: rgba(255, 255, 255, 0.7);
     padding: 30px;
 
     border-radius: 15px;
-    box-shadow:10px 8px 8px rgb(209, 199, 199); 
+     
 }
 
 h2{
@@ -51,4 +55,6 @@ select{
 }
 footer{
     text-align: center;
+    padding: 30px;
+    color: cornsilk;
 }
