@@ -9,7 +9,6 @@ body {
 h1{
     text-align: center;
     font-size: 55px;
-    padding-top: -10px ;
 }
 
 
@@ -17,7 +16,7 @@ h1{
     max-width: 600px;
     margin: 0 auto;
     background: rgba(255, 255, 255, 0.7);
-    padding: 30px;
+    padding: 25px;
 
     border-radius: 15px;
      
@@ -52,6 +51,9 @@ select{
     border-radius: 5px;
     font-size: 18px;
 
+}
+a{
+    color:mediumslateblue;
 }
 footer{
     text-align: center;
